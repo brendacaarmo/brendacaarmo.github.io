@@ -14,7 +14,7 @@ const translations = {
     "hero.lede": "Analista de Sistemas com foco em dados, integração de APIs e inteligência artificial.",
     "hero.ctaProjects": "Ver Projetos",
     "hero.ctaContact": "Entrar em Contato",
-    "hero.card1": "APIs migradas (TM Forum)",
+    "hero.card1": "hard skills",
     "hero.card2": "anos em integração de sistemas",
     "hero.card3": "idiomas fluentes",
     "about.eyebrow": "Sobre",
@@ -24,11 +24,11 @@ const translations = {
     "exp.title": "Experiência",
     "exp.job1.date": "Jan 2024 – Mai 2026",
     "exp.job1.role": "Analista de Sistemas Jr",
-    "exp.job1.desc1": "Migrou 70+ APIs REST de arquiteturas legadas para o padrão global TM Forum, em Java, com IBM AppConnect e API Connect.",
-    "exp.job1.desc2": "Conduziu o ciclo completo de entrega — mapeamento, testes, CI/CD em OpenShift — como ponto técnico direto do cliente, e desenvolveu dashboards em Power BI para a liderança executiva.",
+    "exp.job1.desc1": "Migrou 70+ APIs REST para o padrão global TM Forum, em Java, com IBM AppConnect e API Connect.",
+    "exp.job1.desc2": "Conduziu o ciclo completo de entrega, mapeamento, testes, CI/CD em OpenShift, como ponto técnico direto do cliente, e desenvolveu dashboards em Power BI para a liderança executiva.",
     "exp.job2.date": "Jan 2023 – Dez 2023",
     "exp.job2.role": "Estagiária de Desenvolvimento Full Stack",
-    "exp.job2.desc1": "Sustentou o assistente de IA conversacional (Watson Assistant) da Smiles (grupo Gol), 24/7 para milhões de usuários, diagnosticando erros de integração via AWS Lambda.",
+    "exp.job2.desc1": "Sustentou o assistente de IA conversacional (Watson Assistant) de uma companhia aérea Brasileira, 24/7 para milhões de usuários, diagnosticando erros de integração via AWS Lambda.",
     "exp.job3.date": "Mai 2022 – Dez 2022",
     "exp.job3.role": "Estagiária de Suporte de TI",
     "exp.job3.desc1": "Suporte N1 com monitoramento de CPU, memória e links de rede, tratando alertas antes que impactassem clientes.",
@@ -50,7 +50,7 @@ const translations = {
     "projects.eyebrow": "Projetos",
     "projects.title": "Projetos em destaque",
     "projects.p1.title": "Pipeline Automatizado de Dados Financeiros",
-    "projects.p1.desc": "Pipeline ETL que coleta diariamente Dólar, Selic e IPCA via API pública do Banco Central, valida e transforma os dados, e grava via upsert em PostgreSQL na nuvem — execução 100% automatizada por GitHub Actions, sem intervenção manual.",
+    "projects.p1.desc": "Pipeline ETL que coleta diariamente Dólar, Selic e IPCA via API pública do Banco Central, valida e transforma os dados, e grava via upsert em PostgreSQL na nuvem, execução 100% automatizada por GitHub Actions, sem intervenção manual.",
     "projects.repo": "Repositório",
     "projects.arch": "Arquitetura",
     "projects.p2.title": "Dashboard Power BI — em construção",
@@ -64,7 +64,7 @@ const translations = {
     "contact.form.email": "E-mail",
     "contact.form.message": "Mensagem",
     "contact.form.send": "Enviar mensagem",
-    "footer.credit": "Brenda Julia Carmo Silva — Campinas, Brasil"
+    "footer.credit": "Brenda Carmo — Campinas, Brasil"
   },
 
   en: {
@@ -79,7 +79,7 @@ const translations = {
     "hero.lede": "Systems Analyst focused on data, API integration and artificial intelligence.",
     "hero.ctaProjects": "View Projects",
     "hero.ctaContact": "Get in Touch",
-    "hero.card1": "APIs migrated (TM Forum)",
+    "hero.card1": "hard skills",
     "hero.card2": "years in systems integration",
     "hero.card3": "fluent languages",
     "about.eyebrow": "About",
@@ -89,11 +89,11 @@ const translations = {
     "exp.title": "Experience",
     "exp.job1.date": "Jan 2024 – May 2026",
     "exp.job1.role": "Jr Systems Analyst",
-    "exp.job1.desc1": "Migrated 70+ REST APIs from legacy architectures to the global TM Forum standard, in Java, using IBM AppConnect and API Connect.",
-    "exp.job1.desc2": "Owned the full delivery cycle — mapping, testing, CI/CD on OpenShift — as the client's direct technical point of contact, and built Power BI dashboards for executive leadership.",
+    "exp.job1.desc1": "Migrated 70+ REST APIs to the global TM Forum standard, in Java, using IBM AppConnect and API Connect.",
+    "exp.job1.desc2": "Owned the full delivery cycle, mapping, testing, CI/CD on OpenShift, as the client's direct technical point of contact, and built Power BI dashboards for executive leadership.",
     "exp.job2.date": "Jan 2023 – Dec 2023",
     "exp.job2.role": "Full Stack Development Intern",
-    "exp.job2.desc1": "Maintained the Smiles (Gol group) conversational AI assistant (Watson Assistant), 24/7 for millions of users, troubleshooting integration errors via AWS Lambda.",
+    "exp.job2.desc1": "Maintained a Brazilian airline conversational AI assistant (Watson Assistant), 24/7 for millions of users, troubleshooting integration errors via AWS Lambda.",
     "exp.job3.date": "May 2022 – Dec 2022",
     "exp.job3.role": "IT Support Intern",
     "exp.job3.desc1": "L1 support monitoring CPU, memory and network links, handling alerts before they impacted clients.",
@@ -115,7 +115,7 @@ const translations = {
     "projects.eyebrow": "Projects",
     "projects.title": "Featured projects",
     "projects.p1.title": "Automated Financial Data Pipeline",
-    "projects.p1.desc": "ETL pipeline that daily collects USD/BRL, Selic rate and IPCA from Brazil's Central Bank public API, validates and transforms the data, and writes via upsert to a cloud PostgreSQL — 100% automated via GitHub Actions, no manual intervention.",
+    "projects.p1.desc": "ETL pipeline that daily collects USD/BRL, Selic rate and IPCA from Brazil's Central Bank public API, validates and transforms the data, and writes via upsert to a cloud PostgreSQL, 100% automated via GitHub Actions, no manual intervention.",
     "projects.repo": "Repository",
     "projects.arch": "Architecture",
     "projects.p2.title": "Power BI Dashboard — in progress",
@@ -129,7 +129,7 @@ const translations = {
     "contact.form.email": "Email",
     "contact.form.message": "Message",
     "contact.form.send": "Send message",
-    "footer.credit": "Brenda Julia Carmo Silva — Campinas, Brazil"
+    "footer.credit": "BrendaCarmo — Campinas, Brazil"
   },
 
   es: {
@@ -144,7 +144,7 @@ const translations = {
     "hero.lede": "Analista de Sistemas enfocada en datos, integración de APIs e inteligencia artificial.",
     "hero.ctaProjects": "Ver Proyectos",
     "hero.ctaContact": "Contactar",
-    "hero.card1": "APIs migradas (TM Forum)",
+    "hero.card1": "hard skills",
     "hero.card2": "años en integración de sistemas",
     "hero.card3": "idiomas fluidos",
     "about.eyebrow": "Sobre mí",
@@ -154,11 +154,11 @@ const translations = {
     "exp.title": "Experiencia",
     "exp.job1.date": "Ene 2024 – May 2026",
     "exp.job1.role": "Analista de Sistemas Jr",
-    "exp.job1.desc1": "Migró más de 70 APIs REST de arquitecturas legadas al estándar global TM Forum, en Java, con IBM AppConnect y API Connect.",
-    "exp.job1.desc2": "Condujo el ciclo completo de entrega — mapeo, pruebas, CI/CD en OpenShift — como punto técnico directo del cliente, y desarrolló dashboards en Power BI para la dirección ejecutiva.",
+    "exp.job1.desc1": "Migró más de 70 APIs REST al estándar global TM Forum, en Java, con IBM AppConnect y API Connect.",
+    "exp.job1.desc2": "Condujo el ciclo completo de entrega, mapeo, pruebas, CI/CD en OpenShift, como punto técnico directo del cliente, y desarrolló dashboards en Power BI para la dirección ejecutiva.",
     "exp.job2.date": "Ene 2023 – Dic 2023",
     "exp.job2.role": "Pasante de Desarrollo Full Stack",
-    "exp.job2.desc1": "Mantuvo el asistente de IA conversacional (Watson Assistant) de Smiles (grupo Gol), 24/7 para millones de usuarios, diagnosticando errores de integración vía AWS Lambda.",
+    "exp.job2.desc1": "Mantuvo el asistente de IA conversacional (Watson Assistant) de una aerolínea Brasileña, 24/7 para millones de usuarios, diagnosticando errores de integración vía AWS Lambda.",
     "exp.job3.date": "May 2022 – Dic 2022",
     "exp.job3.role": "Pasante de Soporte de TI",
     "exp.job3.desc1": "Soporte N1 con monitoreo de CPU, memoria y enlaces de red, atendiendo alertas antes de que impactaran a los clientes.",
@@ -180,7 +180,7 @@ const translations = {
     "projects.eyebrow": "Proyectos",
     "projects.title": "Proyectos destacados",
     "projects.p1.title": "Pipeline Automatizado de Datos Financieros",
-    "projects.p1.desc": "Pipeline ETL que recolecta diariamente Dólar, Selic e IPCA vía la API pública del Banco Central, valida y transforma los datos, y los graba vía upsert en PostgreSQL en la nube — ejecución 100% automatizada por GitHub Actions, sin intervención manual.",
+    "projects.p1.desc": "Pipeline ETL que recolecta diariamente Dólar, Selic e IPCA vía la API pública del Banco Central, valida y transforma los datos, y los graba vía upsert en PostgreSQL en la nube, ejecución 100% automatizada por GitHub Actions, sin intervención manual.",
     "projects.repo": "Repositorio",
     "projects.arch": "Arquitectura",
     "projects.p2.title": "Dashboard Power BI — en construcción",
@@ -194,7 +194,7 @@ const translations = {
     "contact.form.email": "Correo electrónico",
     "contact.form.message": "Mensaje",
     "contact.form.send": "Enviar mensaje",
-    "footer.credit": "Brenda Julia Carmo Silva — Campinas, Brasil"
+    "footer.credit": "Brenda Carmo — Campinas, Brasil"
   }
 };
 
