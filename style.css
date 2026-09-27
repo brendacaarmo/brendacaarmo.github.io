@@ -171,6 +171,26 @@ a { color: inherit; }
 }
 .section-text { color: var(--text-muted); font-size: 16px; max-width: 65ch; }
 
+/* ---------- EXPERIENCE / TIMELINE ---------- */
+.timeline { display: flex; flex-direction: column; margin-top: 8px; }
+.timeline-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  padding: 26px 0;
+  border-top: 1px solid var(--border);
+}
+.timeline-item:first-child { border-top: none; padding-top: 4px; }
+@media (min-width: 760px) {
+  .timeline-item { grid-template-columns: 200px 1fr; gap: 32px; }
+}
+.timeline-meta { display: flex; flex-direction: column; gap: 4px; }
+.timeline-date { font-size: 13px; font-weight: 700; color: var(--accent); }
+.timeline-company { font-size: 14px; color: var(--text-muted); font-weight: 500; }
+.timeline-body h3 { font-family: var(--font-display); font-size: 17px; font-weight: 600; margin: 0 0 10px; }
+.timeline-body p { color: var(--text-muted); font-size: 14.5px; max-width: 62ch; margin: 0 0 8px; }
+.timeline-body p:last-child { margin-bottom: 0; }
+
 /* ---------- SKILLS ---------- */
 .skills-group { margin-top: 28px; }
 .skills-group h3 { font-size: 14px; font-weight: 700; color: var(--text-muted); margin: 0 0 14px; }
