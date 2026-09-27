@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brenda Carmo — Backend & Data Engineering</title>
+<meta name="description" content="Portfólio de Brenda Julia Carmo Silva — Integração de APIs, Middleware e Engenharia de Dados.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.16.0/devicon.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="mesh-bg" aria-hidden="true">
+  <span class="blob blob-1"></span>
+  <span class="blob blob-2"></span>
+  <span class="blob blob-3"></span>
+</div>
+
+<header class="navbar">
+  <div class="wrap navbar-inner">
+    <a href="#top" class="logo">Brenda<span>.</span>Carmo</a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#top" data-i18n="nav.home">Início</a>
+      <a href="#sobre" data-i18n="nav.about">Sobre</a>
+      <a href="#skills" data-i18n="nav.skills">Skills</a>
+      <a href="#projetos" data-i18n="nav.projects">Projetos</a>
+      <a href="#contato" data-i18n="nav.contact">Contato</a>
+    </nav>
+
+    <div class="navbar-actions">
+      <a class="icon-link" href="https://github.com/brendacaarmo" target="_blank" rel="noopener" aria-label="GitHub">
+        <i class="fa-brands fa-github" aria-hidden="true"></i>
+      </a>
+      <a class="icon-link" href="https://www.linkedin.com/in/brenda-carmo-151b12208/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+      </a>
+
+      <div class="lang-switch" role="group" aria-label="Idioma">
+        <button type="button" class="lang-btn is-active" data-lang="pt">🇧🇷 PT</button>
+        <button type="button" class="lang-btn" data-lang="en">🇺🇸 EN</button>
+        <button type="button" class="lang-btn" data-lang="es">🇪🇸 ES</button>
+      </div>
+
+      <button class="burger" id="burgerBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="top">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <span class="badge">
+          <span class="dot"></span>
+          <span data-i18n="hero.badge">Disponível para novos desafios</span>
+        </span>
+        <h1 data-i18n="hero.title">Integro sistemas e construo pipelines de dados confiáveis.</h1>
+        <p class="hero-lede" data-i18n="hero.lede">
+          Analista de Sistemas com foco em APIs, middleware e engenharia de dados —
+          da migração de arquiteturas legadas à automação de pipelines em produção.
+        </p>
+        <div class="hero-cta">
+          <a href="#projetos" class="btn btn-primary" data-i18n="hero.ctaProjects">Ver Projetos</a>
+          <a href="#contato" class="btn btn-ghost" data-i18n="hero.ctaContact">Entrar em Contato</a>
+        </div>
+      </div>
+
+      <div class="hero-cards" aria-hidden="true">
+        <div class="float-card card-1">
+          <span class="float-num">70+</span>
+          <span class="float-label" data-i18n="hero.card1">APIs migradas (TM Forum)</span>
+        </div>
+        <div class="float-card card-2">
+          <span class="float-num">2,5</span>
+          <span class="float-label" data-i18n="hero.card2">anos em integração de sistemas</span>
+        </div>
+        <div class="float-card card-3">
+          <span class="float-num">3</span>
+          <span class="float-label" data-i18n="hero.card3">idiomas fluentes</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sobre">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="about.eyebrow">Sobre</p>
+      <h2 data-i18n="about.title">Da integração de legados à engenharia de dados</h2>
+      <p class="section-text" data-i18n="about.text">
+        Quatro anos de experiência em TI, com 2,5 anos como Analista de Sistemas migrando
+        APIs legadas para o padrão global TM Forum, automatizando deploys via CI/CD e
+        construindo dashboards executivos em Power BI. Hoje direciono essa base técnica
+        para projetos próprios de engenharia de dados, do desenho à produção.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="skills.eyebrow">Stack</p>
+      <h2 data-i18n="skills.title">Habilidades técnicas</h2>
+
+      <div class="skills-group">
+        <h3 data-i18n="skills.group1">Backend & Linguagens</h3>
+        <div class="skill-grid">
+          <div class="skill-card" style="--brand:#3776AB"><i class="devicon-python-plain colored"></i><span>Python</span><small data-i18n="skills.level.advanced">Uso avançado</small></div>
+          <div class="skill-card" style="--brand:#EA2D2E"><i class="devicon-java-plain colored"></i><span>Java</span><small data-i18n="skills.level.advanced">Uso avançado</small></div>
+          <div class="skill-card" style="--brand:#68A063"><i class="devicon-nodejs-plain colored"></i><span>Node.js</span><small data-i18n="skills.level.basic">Noções</small></div>
+          <div class="skill-card" style="--brand:#F0DB4F"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span><small data-i18n="skills.level.intermediate">Uso frequente</small></div>
+        </div>
+      </div>
+
+      <div class="skills-group">
+        <h3 data-i18n="skills.group2">APIs & Middleware</h3>
+        <div class="skill-grid">
+          <div class="skill-card" style="--brand:#4FD1C5"><i class="fa-solid fa-diagram-project"></i><span>REST APIs</span><small data-i18n="skills.level.advanced">Uso avançado</small></div>
+          <div class="skill-card" style="--brand:#0530AD"><i class="fa-solid fa-server"></i><span>IBM AppConnect</span><small data-i18n="skills.level.advanced">Uso avançado</small></div>
+          <div class="skill-card" style="--brand:#0530AD"><i class="fa-solid fa-network-wired"></i><span>API Connect</span><small data-i18n="skills.level.advanced">Uso avançado</small></div>
+          <div class="skill-card" style="--brand:#85EA2D"><i class="fa-solid fa-file-code"></i><span>Swagger / OpenAPI</span><small data-i18n="skills.level.intermediate">Uso frequente</small></div>
+        </div>
+      </div>
+
+      <div class="skills-group">
+        <h3 data-i18n="skills.group3">Dados & SQL</h3>
+        <div class="skill-grid">
+          <div class="skill-card" style="--brand:#336791"><i class="devicon-postgresql-plain colored"></i><span>PostgreSQL</span><small data-i18n="skills.level.advanced">Uso avançado</small></div>
+          <div class="skill-card" style="--brand:#DC382D"><i class="devicon-redis-plain colored"></i><span>Redis</span><small data-i18n="skills.level.intermediate">Uso frequente</small></div>
+          <div class="skill-card" style="--brand:#4479A1"><i class="fa-solid fa-database"></i><span>SQL</span><small data-i18n="skills.level.advanced">Uso avançado</small></div>
+          <div class="skill-card" style="--brand:#F2C811"><i class="fa-solid fa-chart-column"></i><span>Power BI</span><small data-i18n="skills.level.advanced">Uso avançado</small></div>
+          <div class="skill-card" style="--brand:#F46800"><i class="fa-solid fa-gauge-high"></i><span>Grafana</span><small data-i18n="skills.level.intermediate">Uso frequente</small></div>
+        </div>
+      </div>
+
+      <div class="skills-group">
+        <h3 data-i18n="skills.group4">DevOps & Cloud</h3>
+        <div class="skill-grid">
+          <div class="skill-card" style="--brand:#2496ED"><i class="devicon-docker-plain colored"></i><span>Docker</span><small data-i18n="skills.level.intermediate">Uso frequente</small></div>
+          <div class="skill-card" style="--brand:#2496ED"><i class="fa-solid fa-boxes-stacked"></i><span>Docker Compose</span><small data-i18n="skills.level.intermediate">Uso frequente</small></div>
+          <div class="skill-card" style="--brand:#F05032"><i class="devicon-git-plain colored"></i><span>Git</span><small data-i18n="skills.level.advanced">Uso avançado</small></div>
+          <div class="skill-card" style="--brand:#2088FF"><i class="devicon-githubactions-plain colored"></i><span>GitHub Actions</span><small data-i18n="skills.level.intermediate">Uso frequente</small></div>
+          <div class="skill-card" style="--brand:#FF9900"><i class="devicon-amazonwebservices-plain-wordmark colored"></i><span>AWS</span><small data-i18n="skills.level.intermediate">Uso frequente</small></div>
+          <div class="skill-card" style="--brand:#EE0000"><i class="fa-solid fa-cubes"></i><span>OpenShift</span><small data-i18n="skills.level.intermediate">Uso frequente</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projetos">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="projects.eyebrow">Projetos</p>
+      <h2 data-i18n="projects.title">Projetos em destaque</h2>
+
+      <div class="bento">
+        <article class="bento-card bento-card--wide">
+          <div class="bento-tags">
+            <span><i class="devicon-python-plain colored"></i>Python</span>
+            <span><i class="devicon-postgresql-plain colored"></i>SQL</span>
+            <span><i class="devicon-docker-plain colored"></i>Docker</span>
+            <span><i class="devicon-githubactions-plain colored"></i>GitHub Actions</span>
+          </div>
+          <h3 data-i18n="projects.p1.title">Pipeline Automatizado de Dados Financeiros</h3>
+          <p data-i18n="projects.p1.desc">
+            Pipeline ETL que coleta diariamente Dólar, Selic e IPCA via API pública do Banco
+            Central, valida e transforma os dados, e grava via upsert em PostgreSQL na nuvem —
+            execução 100% automatizada por GitHub Actions, sem intervenção manual.
+          </p>
+          <div class="bento-links">
+            <a class="btn btn-primary btn-sm" href="https://github.com/brendacaarmo/bcb-financial-pipeline" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i> <span data-i18n="projects.repo">Repositório</span>
+            </a>
+            <a class="btn btn-ghost btn-sm" href="https://github.com/brendacaarmo/bcb-financial-pipeline/blob/main/docs/architecture.md" target="_blank" rel="noopener">
+              <span data-i18n="projects.arch">Arquitetura</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="bento-card bento-card--empty">
+          <div class="bento-empty-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <h3 data-i18n="projects.p2.title">Dashboard Power BI — em construção</h3>
+          <p data-i18n="projects.p2.desc">Próximo projeto: dashboard consumindo os dados deste pipeline em tempo real.</p>
+        </article>
+
+        <article class="bento-card bento-card--empty">
+          <div class="bento-empty-icon"><i class="fa-solid fa-plus"></i></div>
+          <h3 data-i18n="projects.p3.title">Novo projeto em breve</h3>
+          <p data-i18n="projects.p3.desc">Este espaço vai ganhar um novo repositório em breve.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contato">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="contact.eyebrow">Contato</p>
+      <h2 data-i18n="contact.title">Vamos conversar</h2>
+      <p class="section-text" data-i18n="contact.text">
+        Aberta a oportunidades remotas, híbridas ou presenciais em integração de sistemas,
+        automação e dados.
+      </p>
+
+      <div class="contact-grid">
+        <form class="contact-form" action="https://formspree.io/f/mrpboqga" method="POST">
+          <label for="name" data-i18n="contact.form.name">Nome</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email" data-i18n="contact.form.email">E-mail</label>
+          <input type="email" id="email" name="_replyto" required>
+
+          <label for="message" data-i18n="contact.form.message">Mensagem</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit" class="btn btn-primary" data-i18n="contact.form.send">Enviar mensagem</button>
+        </form>
+
+        <div class="social-block">
+          <a class="social-link" href="mailto:brendajulia28@gmail.com">
+            <i class="fa-solid fa-envelope"></i> brendajulia28@gmail.com
+          </a>
+          <a class="social-link" href="https://www.linkedin.com/in/brenda-carmo-151b12208/" target="_blank" rel="noopener">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+          </a>
+          <a class="social-link" href="https://github.com/brendacaarmo" target="_blank" rel="noopener">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <span data-i18n="footer.credit">Brenda Julia Carmo Silva — Campinas, Brasil</span>
+    <span class="deploy-badge"><span class="dot dot-green"></span> <span data-i18n="footer.deploy">Publicado via GitHub Pages</span></span>
+  </div>
+</footer>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<script src="script.js"></script>
+</body>
+</html>
