@@ -1,6 +1,6 @@
 # brendacaarmo.github.io
 
-Portfólio pessoal de Brenda Julia Carmo Silva — Analista de Sistemas com foco em integração de APIs, middleware e engenharia de dados.
+Portfólio pessoal
 
 Acesse: brendacaarmo.github.io
 
