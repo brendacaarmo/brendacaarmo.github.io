@@ -28,7 +28,7 @@ const translations = {
     "exp.job1.desc2": "Conduziu o ciclo completo de entrega, mapeamento, testes, CI/CD em OpenShift, como ponto técnico direto do cliente, e desenvolveu dashboards em Power BI para a liderança executiva.",
     "exp.job2.date": "Jan 2023 – Dez 2023",
     "exp.job2.role": "Estagiária de Desenvolvimento Full Stack",
-    "exp.job2.desc1": "Sustentou o assistente de IA conversacional (Watson Assistant) de uma companhia aérea Brasileira, 24/7 para milhões de usuários, diagnosticando erros de integração via AWS Lambda.",
+    "exp.job2.desc1": "Sustentou o assistente de IA conversacional (Watson Assistant) de uma companhia aérea brasileira, 24/7 para milhões de usuários, diagnosticando erros de integração via AWS Lambda.",
     "exp.job3.date": "Mai 2022 – Dez 2022",
     "exp.job3.role": "Estagiária de Suporte de TI",
     "exp.job3.desc1": "Suporte N1 com monitoramento de CPU, memória e links de rede, tratando alertas antes que impactassem clientes.",
@@ -64,7 +64,7 @@ const translations = {
     "contact.form.email": "E-mail",
     "contact.form.message": "Mensagem",
     "contact.form.send": "Enviar mensagem",
-    "footer.credit": "Brenda Carmo — Campinas, Brasil"
+    "footer.credit": "Brenda Julia Carmo Silva — Campinas, Brasil"
   },
 
   en: {
@@ -93,7 +93,7 @@ const translations = {
     "exp.job1.desc2": "Owned the full delivery cycle, mapping, testing, CI/CD on OpenShift, as the client's direct technical point of contact, and built Power BI dashboards for executive leadership.",
     "exp.job2.date": "Jan 2023 – Dec 2023",
     "exp.job2.role": "Full Stack Development Intern",
-    "exp.job2.desc1": "Maintained a Brazilian airline conversational AI assistant (Watson Assistant), 24/7 for millions of users, troubleshooting integration errors via AWS Lambda.",
+    "exp.job2.desc1": "Maintained the conversational AI assistant (Watson Assistant) of a Brazilian airline, 24/7 for millions of users, troubleshooting integration errors via AWS Lambda.",
     "exp.job3.date": "May 2022 – Dec 2022",
     "exp.job3.role": "IT Support Intern",
     "exp.job3.desc1": "L1 support monitoring CPU, memory and network links, handling alerts before they impacted clients.",
@@ -129,7 +129,7 @@ const translations = {
     "contact.form.email": "Email",
     "contact.form.message": "Message",
     "contact.form.send": "Send message",
-    "footer.credit": "BrendaCarmo — Campinas, Brazil"
+    "footer.credit": "Brenda Julia Carmo Silva — Campinas, Brazil"
   },
 
   es: {
@@ -144,7 +144,7 @@ const translations = {
     "hero.lede": "Analista de Sistemas enfocada en datos, integración de APIs e inteligencia artificial.",
     "hero.ctaProjects": "Ver Proyectos",
     "hero.ctaContact": "Contactar",
-    "hero.card1": "hard skills",
+    "hero.card1": "habilidades técnicas",
     "hero.card2": "años en integración de sistemas",
     "hero.card3": "idiomas fluidos",
     "about.eyebrow": "Sobre mí",
@@ -158,7 +158,7 @@ const translations = {
     "exp.job1.desc2": "Condujo el ciclo completo de entrega, mapeo, pruebas, CI/CD en OpenShift, como punto técnico directo del cliente, y desarrolló dashboards en Power BI para la dirección ejecutiva.",
     "exp.job2.date": "Ene 2023 – Dic 2023",
     "exp.job2.role": "Pasante de Desarrollo Full Stack",
-    "exp.job2.desc1": "Mantuvo el asistente de IA conversacional (Watson Assistant) de una aerolínea Brasileña, 24/7 para millones de usuarios, diagnosticando errores de integración vía AWS Lambda.",
+    "exp.job2.desc1": "Mantuvo el asistente de IA conversacional (Watson Assistant) de una aerolínea brasileña, 24/7 para millones de usuarios, diagnosticando errores de integración vía AWS Lambda.",
     "exp.job3.date": "May 2022 – Dic 2022",
     "exp.job3.role": "Pasante de Soporte de TI",
     "exp.job3.desc1": "Soporte N1 con monitoreo de CPU, memoria y enlaces de red, atendiendo alertas antes de que impactaran a los clientes.",
@@ -194,7 +194,7 @@ const translations = {
     "contact.form.email": "Correo electrónico",
     "contact.form.message": "Mensaje",
     "contact.form.send": "Enviar mensaje",
-    "footer.credit": "Brenda Carmo — Campinas, Brasil"
+    "footer.credit": "Brenda Julia Carmo Silva — Campinas, Brasil"
   }
 };
 
